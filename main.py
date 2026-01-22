@@ -7,6 +7,8 @@ liverpool_goals = int(input("Hur många mål gjorde Liverpool? "))
 if tottenham_goals == liverpool_goals:
     print("Det blev oavgjort!")
 elif tottenham_goals > liverpool_goals:
-    print("Tottenham vann!")
+    differ = tottenham_goals - liverpool_goals
+    print("Tottenham vann med ", differ ," mål!")
 elif tottenham_goals < liverpool_goals:
-    print("Liverpool vann!")
+    differ = liverpool_goals - tottenham_goals
+    print("Liverpool vann med ", differ ," mål!")
