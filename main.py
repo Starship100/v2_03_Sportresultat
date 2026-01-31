@@ -12,3 +12,5 @@ elif tottenham_goals > liverpool_goals:
 elif tottenham_goals < liverpool_goals:
     differ = liverpool_goals - tottenham_goals
     print("Liverpool vann med ", differ ," mål!")
+
+# ada
